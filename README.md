@@ -20,5 +20,6 @@ How to run:
      * .
 2. Converting genotype files to EPIQ format: 
 3. Usage: 
-   ./projections -p <phenotype file> -f <genotypes file>  -F  <thresholds file> -e <edges file> -n <# of individuals>  -L <# of iterations> -C <chi-squared threshold> -M <map file>
+
+./projections -p \<phenotype file\> -f \<genotypes file\>  -F  \<thresholds file\> -e \<edges file\> -n \<# of individuals\>  -L \<# of iterations\> -C \<chi-squared threshold\> -M \<map file\>
 
