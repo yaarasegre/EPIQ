@@ -12,9 +12,13 @@ Download files to a local directory. From the terminal, cd to the "AlgorithmRele
 How to run:
 -----------
 
-1. Input: EPIQ requires 3 files: A genotypes file, a phenotypes file, and a map file.
+1. Input: EPIQ requires 5 files: 
      * Genotypes file: a file containing only 0's or 1's. The file contains one row per individual, one column per SNP. No whitespaces or missing data are allowd.
      * Phenotypes file: contains one row per individual. Each row contains one number.
      * A map file: a 4 column file, in the format of PLINK's map files.
-2. Convert files to epi format: 
+     * .
+     * .
+2. Converting genotype files to EPIQ format: 
 3. Usage: 
+   ./projections -p <phenotype file> -f <genotypes file>  -F  <thresholds file> -e <edges file> -n <# of individuals>  -L <# of iterations> -C <chi-squared threshold> -M <map file>
+
