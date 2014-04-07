@@ -2,11 +2,12 @@ EPIQ
 ====
 
 This is the beta version of EPIQ - An efficient tool for detecting SNP-SNP epistatic interactions for quantitative traits.
+See Arkin2014.pdf for a description of the algorithm.
 
 How to Instal:
 --------------
-Requirments: Linux, Unix or Mac OS X.
-g++ version 4.6.3 or higher.
+Requirments: Linux, Unix or Mac OS X; g++ version 4.6.3 or higher.
+Download files to a local directory. From the terminal, cd to the "AlgorithmRelease" directory and type "make all". Thish should create an executable named "projections".
 
 How to run:
 -----------
