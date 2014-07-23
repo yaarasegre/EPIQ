@@ -44,6 +44,8 @@ How to run:
             ./projections -p \<phenotype file\> -f \<genotypes file\>  -F  \<thresholds file\> -e \<edges file\> 
             -n \<# of individuals\>  -L \<# of iterations\> -C \<chi-squared threshold\> -M \<map file\>
 
+The chi-squared threshold should be set so that the p-value after Bonferroni correction is at the desired alpha level. Under the null hypothesis, the test-statistic has a chi-square distribution with one degree of freedom. For example, for 10^6 SNPs and alpha=0.05, the threshold would be: chi2inv(1 - (0.05/nchoosek(10^6,2)) , 1) = 55.3664
+
 Sample data
 -----------
 To run EPIQ using the supplied parameters and the toy data, cd to the directory named "sample" and type:
