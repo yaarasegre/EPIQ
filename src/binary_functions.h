@@ -22,6 +22,7 @@
 #include <limits>
 #include <chrono>
 #include <time.h>
+#include <getopt.h>
 #include "typedefs.h"
 #include "binary_regression.h"
 using namespace std;
