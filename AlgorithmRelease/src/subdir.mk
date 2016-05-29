@@ -23,8 +23,9 @@ CPP_DEPS += \
 src/%.o: ../src/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++  -std=c++0x -I/Users/yaara/Documents/cppworkspace/projections/lib/sparsehash/include -O3 -Wall -c -fmessage-length=0 -D NDEBUG -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	g++  -std=c++0x -O3 -Wall -c -fmessage-length=0 -D NDEBUG -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
-
+# g++  -std=c++0x -I/Users/yaara/Documents/cppworkspace/projections/lib/sparsehash/include -O3 -Wall -c -fmessage-length=0 -D NDEBUG -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	
